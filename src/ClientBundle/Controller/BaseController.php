@@ -4,7 +4,7 @@ namespace ClientBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class BaseController extends Controller
 {
     public function indexAction()
     {
